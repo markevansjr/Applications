@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkGry"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true" >
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/Green"
+        android:paddingLeft="5dp" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp" >
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText_1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/button_1"
+        android:background="@color/White"
+        android:ems="10"
+        android:hint="@string/search_hint"
+        android:inputType="textCapSentences"
+        android:paddingLeft="5dp"
+        android:textColor="@color/Green"
+        android:textSize="18dp" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText_1" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/Green"
+        android:text="@string/btn_text2"
+        android:textColor="@color/White" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner1"
+        android:layout_alignParentLeft="true" >
+
+        <Button
+            android:id="@+id/OpenBrowserBtn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="50"
+            android:onClick="callBrowser"
+            android:text="@string/browsertxt"
+            android:textColor="@color/White" />
+
+        <Button
+            android:id="@+id/SavedBtn"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="50"
+            android:onClick="callFavs"
+            android:text="@string/savedfavs"
+            android:textColor="@color/White" />
+    </LinearLayout>
+
+</RelativeLayout>
