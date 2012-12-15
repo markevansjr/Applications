@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>link</key>
+		<string>http://smittenkitchen.com/blog/2007/05/my-kingdom-for-a-glass-of-milk/</string>
+		<key>source</key>
+		<string>Smitten Kitchen</string>
+		<key>thumb</key>
+		<string>http://s3.amazonaws.com/img.punchfork.net/ad6f751507da6b33273f9f04688eba51_250x250.jpg</string>
+		<key>title</key>
+		<string>Homemade Oreos</string>
+	</dict>
+	<dict>
+		<key>link</key>
+		<string>http://www.closetcooking.com/2011/08/buffalo-chicken-grilled-cheese-sandwich.html</string>
+		<key>source</key>
+		<string>Closet Cooking</string>
+		<key>thumb</key>
+		<string>http://s3.amazonaws.com/img.punchfork.net/d44c1639fa0e6f6f37fad9fa71bbbdd1_250x250.jpg</string>
+		<key>title</key>
+		<string>Buffalo Chicken Grilled Cheese Sandwich</string>
+	</dict>
+	<dict>
+		<key>link</key>
+		<string>http://www.closetcooking.com/2011/03/pizza-dip.html</string>
+		<key>source</key>
+		<string>Closet Cooking</string>
+		<key>thumb</key>
+		<string>http://s3.amazonaws.com/img.punchfork.net/af1715157b2cb5bef03dcd24cb72483c_250x250.jpg</string>
+		<key>title</key>
+		<string>Pizza Dip</string>
+	</dict>
+</array>
+</plist>
